@@ -1,0 +1,21 @@
+.song {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.album-art {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+.song-details {
+    flex-grow: 1;
+}
+
+audio {
+    width: 100%;
+}
